@@ -1,14 +1,14 @@
 _id: ut_9facb0f9ba844819aa1f97919c69463b
 type: UnitTest
 parentId: uts_21ac96f064f04cb7a84103b4c3b8ee61
-modified: 1690155582022
+modified: 1690156389590
 created: 1690155103563
 requestId: req_9296fee12c064d5881d0aa345d949071
 name: Create Returns Header
 code: |-
   const response = await insomnia.send();
   // expect(response1.status).to.equal(200);
-  console.log(`body ${JSON.stringify(response)}`);
+  // console.log(`body ${JSON.stringify(response)}`);
   const body = JSON.parse(response.data);
-  console.log(`body -> ${JSON.stringify(body)}`);
+  // console.log(`body -> ${JSON.stringify(body)}`);
   expect(body).to.have.property('event');
