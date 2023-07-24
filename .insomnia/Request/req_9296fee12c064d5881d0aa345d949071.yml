@@ -1,7 +1,7 @@
 _id: req_9296fee12c064d5881d0aa345d949071
 type: Request
 parentId: wrk_acdc5f5611b34b9b8af8a99b6faef6f8
-modified: 1690157599446
+modified: 1690157766720
 created: 1690154481120
 url: https://eoj6axk6jje83zd.m.pipedream.net/logrules
 name: CreateRules
@@ -22,6 +22,7 @@ headers:
     name: "{{ _.xHeaderName }}"
     value: "{{ _.xHeaderValue }}"
     description: ""
+    disabled: true
 authentication: {}
 metaSortKey: -1690154481120
 isPrivate: false
