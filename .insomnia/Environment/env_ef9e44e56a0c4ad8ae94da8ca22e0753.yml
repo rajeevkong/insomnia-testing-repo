@@ -1,16 +1,16 @@
 _id: env_ef9e44e56a0c4ad8ae94da8ca22e0753
 type: Environment
 parentId: env_2da6a25dbd23de3f461e20527ca647de08685308
-modified: 1690156986694
+modified: 1690157586725
 created: 1690156944787
 name: RequestVariables
 data:
-  headerName: X-HEADER-TEST
-  headerValue: TestValue
+  xHeaderName: X-HEADER-TEST
+  xHeaderValue: TestValue
 dataPropertyOrder:
   "&":
-    - headerName
-    - headerValue
+    - xHeaderName
+    - xHeaderValue
 color: null
 isPrivate: false
 metaSortKey: 1690156944787
